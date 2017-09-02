@@ -1,0 +1,22 @@
+.red {
+    color: red
+}
+.blue {
+    color: blue
+}
+@media (min-width: 300px) {
+    .sm-red {
+        color: red
+    }
+    .sm-blue {
+        color: blue
+    }
+}
+@media (min-width: 600px) {
+    .md-red {
+        color: red
+    }
+    .md-blue {
+        color: blue
+    }
+}

@@ -1,0 +1,37 @@
+{
+  "name": "postcss-beard-responsive",
+  "version": "0.0.0",
+  "description": "PostCSS plugin to generate responsive versions of utility classes",
+  "keywords": [
+    "postcss",
+    "css",
+    "postcss-plugin",
+    "atomic css",
+    "functional css",
+    ""
+  ],
+  "author": "David Hemphill <davidlee.hemphill@gmail.com>",
+  "license": "MIT",
+  "repository": "monarkee/postcss-beard-responsive",
+  "bugs": {
+    "url": "https://github.com/monarkee/postcss-beard-responsive/issues"
+  },
+  "homepage": "https://github.com/monarkee/postcss-beard-responsive",
+  "dependencies": {
+    "postcss": "^6.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-postcss": "^2.0.2",
+    "jest": "^20.0.0"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "eslintConfig": {
+    "extends": "eslint-config-postcss/es5",
+    "env": {
+      "jest": true
+    }
+  }
+}
